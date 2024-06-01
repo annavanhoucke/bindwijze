@@ -153,6 +153,11 @@ font-style: normal;}
     font-size: 9vw; /* adjust as needed */
   }
 
+.beeldassociatie-container {
+  min-height: 100vh;
+  height: auto;
+}
+
 
 @media (max-width: 800px) {
   .big {
@@ -179,16 +184,28 @@ font-style: normal;}
   }
 
   .uitleg {
-    margin-left: 20px;
-    margin-right: 10px;
-    font-size: 1.5rem !important; /* adjust as needed */
+    /*margin-left: 20px;*/
+    /*margin-right: 10px;*/
+    /*font-size: 1.5rem !important; !* adjust as needed *!*/
     /* make text full width */
-    text-align: justify;
+    /*text-align: justify;*/
+
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .uitleg h2 {
     /* centered */
     text-align: center;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .beeldassociatie-container {
+    min-height: 0;
   }
 
 

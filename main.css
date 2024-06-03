@@ -46,6 +46,15 @@ margin-left: 2%;}
   margin-left: 1%;
 }
 
+.black2 {
+  color: black;
+  margin-left: 1%;
+}
+
+.werk {
+margin-left: 0%
+}
+
 .blue{
   color: blue;
 }
@@ -92,7 +101,7 @@ font-size: 2rem;}
 .zeewier {
   text-align: center;
   color:magenta;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .beeldassociatie{

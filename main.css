@@ -93,7 +93,7 @@ font-size: 2rem;}
 .katernen{
   font-size: 2rem;
   color:blue;
-  text-align: center;
+  /*text-align: center;*/
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -170,7 +170,11 @@ font-style: normal;}
 
 @media (max-width: 800px) {
   .big {
-    font-size: 2rem !important;
+    font-size: 1.3rem !important;
+  }
+
+  p {
+    font-size: 1.3rem !important;
   }
 
   .intro {
@@ -188,7 +192,7 @@ font-style: normal;}
 
     /*width: auto;*/
     display: block;
-    margin-left: auto;
+    /*margin-left: auto;*/
     margin-right: auto;
   }
 
@@ -199,14 +203,19 @@ font-style: normal;}
     /* make text full width */
     /*text-align: justify;*/
 
-    text-align: center;
+    /*text-align: center;*/
     margin-left: 2%;
     margin-right: 2%;
   }
 
   .uitleg h2 {
     /* centered */
-    text-align: center;
+    /*text-align: center;*/
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 
   .hide-mobile {

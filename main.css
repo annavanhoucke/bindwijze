@@ -179,7 +179,7 @@ font-style: normal;}
   }
 
   .intro {
-    min-height: 70vh
+    min-height: 0;
   }
 
   .bookimages img {

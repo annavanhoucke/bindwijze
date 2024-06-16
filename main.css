@@ -105,7 +105,7 @@ font-size: 2rem;}
 }
 
 .beeldassociatie{
-  font-size: 8rem;
+  /*font-size: 8rem;*/
   text-align: center;
   color: white;
   width: 100%;
@@ -114,6 +114,7 @@ font-size: 2rem;}
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 .noto-sans  {
@@ -159,7 +160,7 @@ font-style: normal;}
 }
 
   .beeldassociatie {
-    font-size: 9vw; /* adjust as needed */
+    font-size: 9vw !important; /* adjust as needed */
   }
 
 .beeldassociatie-container {
@@ -224,6 +225,11 @@ font-style: normal;}
 
   .beeldassociatie-container {
     min-height: 0;
+  }
+
+  .afbeeldingen img {
+    width: 60% !important;
+    margin: 60px 0;
   }
 
 
